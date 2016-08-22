@@ -9,3 +9,8 @@ git push -u origin new
 ```bash
 git commit --amend -m 'docs new name commit'
 ```
+
+## remove branch
+```bash
+git branch -D branch_name
+```

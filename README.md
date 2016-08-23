@@ -14,3 +14,9 @@ git commit --amend -m 'docs new name commit'
 ```bash
 git branch -D branch_name
 ```
+
+## new annotatiton tag
+ ```bash
+ git tag -a v1.0 -m 'version 1.0'
+ ```
+ 

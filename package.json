@@ -4,7 +4,8 @@
   "description": "test git command",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "lint": "eslint -c .eslintrc src --ext js,jsx"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,14 @@
   },
   "homepage": "https://github.com/RomanVoronich/test-git#readme",
   "dependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.10.0",
+    "eslint-plugin-babel": "^3.3.0",
     "jsdoc": "^3.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-react": "^6.6.0"
   }
 }

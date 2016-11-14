@@ -1,0 +1,27 @@
+{
+  "name": "test-git",
+  "version": "0.1.0",
+  "description": "test git command",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanVoronich/test-git.git"
+  },
+  "keywords": [
+    "test",
+    "git",
+    "markdown"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanVoronich/test-git/issues"
+  },
+  "homepage": "https://github.com/RomanVoronich/test-git#readme",
+  "dependencies": {
+    "jsdoc": "^3.4.3"
+  }
+}

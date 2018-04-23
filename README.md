@@ -28,3 +28,8 @@ npm run doc
 npm run lint
 
 ``` 
+
+## git squash
+```
+
+```

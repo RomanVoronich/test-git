@@ -20,3 +20,11 @@ git branch -D branch_name
  git tag -a v1.0 -m 'version 1.0'
  ```
  
+## pre-commit hook
+```
+#!/bin/sh
+
+npm run doc
+npm run lint
+
+``` 

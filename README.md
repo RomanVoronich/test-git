@@ -20,7 +20,7 @@ git branch -D branch_name
  git tag -a v1.0 -m 'version 1.0'
  ```
  
-## pre-commit hook
+## Хук pre-commit
 ```
 #!/bin/sh
 
@@ -29,7 +29,9 @@ npm run lint
 
 ``` 
 
-## git squash
+## Слияние коммитов в один коммит
 ```
-
+git reset --hard HEAD~12
+git merge --squash HEAD@{1}
+git commit
 ```

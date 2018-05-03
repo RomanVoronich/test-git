@@ -35,3 +35,5 @@ git reset --hard HEAD~12
 git merge --squash HEAD@{1}
 git commit
 ```
+1
+2

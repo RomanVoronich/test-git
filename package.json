@@ -1,0 +1,21 @@
+{
+  "name": "test-git",
+  "version": "1.0.0",
+  "description": "```bash git branch  -m old new git push origin :old git push -u origin new ``` ## Переименование последнего коммита  ```bash git commit --amend -m 'docs new name commit' ```",
+  "main": "action.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "echo \"doc\"",
+    "lint": "echo \"lint\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanVoronich/test-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanVoronich/test-git/issues"
+  },
+  "homepage": "https://github.com/RomanVoronich/test-git#readme"
+}
